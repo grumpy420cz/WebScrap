@@ -4,11 +4,11 @@ Tento skript umožnuje získat výsledky z parlamentních voleb 2017 pro okrez z
 
 Jak na to ?
 Před spuštěním je potřeba zkontrolovat jestli máte potřebné knihovny které jsou uvedeny v souboru requirements.txt. Skript se pak spustí pomocí příkazového řádku pomocí následujícího příkazu 
-python WebScrap.py <odkaz_uzemniho_celku> <vystupni_soubor> <odkaz_kde_jsou_uvedené_strany> 
+python WebScrap.py <odkaz_uzemniho_celku> <odkaz_kde_jsou_uvedené_strany> <vystupni_soubor>
 výstupem pak bude soubor csv s výsledky voleb
 
 Příklad v praxi pro okres Jablonec nad Nisou 
-python WebScrap.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=7&xnumnuts=5102" vysledky-okrsek_Jablonec_nad_Nisou.csv "https://volby.cz/pls/ps2017nss/ps311?xjazyk=CZ&xkraj=7&xobec=563528&xvyber=5102" 
+python WebScrap.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=7&xnumnuts=5102" "https://volby.cz/pls/ps2017nss/ps311?xjazyk=CZ&xkraj=7&xobec=563528&xvyber=5102" vysledky-okrsek_Jablonec_nad_Nisou.csv
 
 Výsledek : 
 Kod oblasti;Nazev oblasti;Registrovany volici;Obalky;Platn� hlasy;Ob�ansk� demokratick� strana;��d n�roda - Vlasteneck� unie;CESTA ODPOV�DN� SPOLE�NOSTI;�esk� str.soci�ln� demokrat.;STAROSTOV� A NEZ�VISL�;Komunistick� str.�ech a Moravy;Strana zelen�ch;ROZUMN�-stop migraci,dikt�t.EU;Strana svobodn�ch ob�an�;Blok proti islam.-Obran.domova;Ob�ansk� demokratick� aliance;�esk� pir�tsk� strana;Referendum o Evropsk� unii;TOP 09;ANO 2011;Dobr� volba 2016;SPR-Republ.str.�sl. M.Sl�dka;K�es�.demokr.unie-�s.str.lid.;�esk� strana n�rodn� soci�ln�;REALIST�;SPORTOVCI;D�lnic.str.soci�ln� spravedl.;Svob.a p�.dem.-T.Okamura (SPD);Strana Pr�v Ob�an�
